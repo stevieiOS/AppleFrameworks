@@ -22,8 +22,6 @@ struct AFButton: View {
                 .foregroundColor(.white)
                 .cornerRadius(18)
                 .shadow(color: .gray, radius: 4)
-            
-                
         })
     }
 }

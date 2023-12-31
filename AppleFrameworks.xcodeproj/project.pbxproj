@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565BA22B2B41E900008222FA /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565BA22A2B41E900008222FA /* FrameworkGridViewModel.swift */; };
 		567B2C872B411A850046E42E /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B2C862B411A850046E42E /* FrameworkDetailView.swift */; };
 		567B2C892B411D710046E42E /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B2C882B411D710046E42E /* AFButton.swift */; };
 		567BB4E92B3FA3B90092809C /* AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BB4E82B3FA3B90092809C /* AppleFrameworksApp.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		565BA22A2B41E900008222FA /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		567B2C862B411A850046E42E /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		567B2C882B411D710046E42E /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		567BB4E52B3FA3B90092809C /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 			children = (
 				567BB4E82B3FA3B90092809C /* AppleFrameworksApp.swift */,
 				567BB5122B3FA4EC0092809C /* FrameworkGridView.swift */,
+				565BA22A2B41E900008222FA /* FrameworkGridViewModel.swift */,
 				567B2C862B411A850046E42E /* FrameworkDetailView.swift */,
 				567B2C882B411D710046E42E /* AFButton.swift */,
 				567BB5162B3FA64E0092809C /* Models */,
@@ -279,6 +282,7 @@
 				567BB5182B3FB3460092809C /* Framework.swift in Sources */,
 				567B2C892B411D710046E42E /* AFButton.swift in Sources */,
 				567BB5132B3FA4EC0092809C /* FrameworkGridView.swift in Sources */,
+				565BA22B2B41E900008222FA /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
