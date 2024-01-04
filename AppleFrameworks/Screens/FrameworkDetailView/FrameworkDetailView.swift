@@ -10,31 +10,31 @@ import UIKit
 
 struct FrameworkDetailView: View {
     var framework: Framework
-
+    
     @Binding var isShowingDetailView: Bool
     @State private var isShowingSafariView = false
-
+    
     var body: some View {
         VStack {
-           XDismissButton(isShowingDetailView: $isShowingDetailView)
-            .padding()
+            Spacer()
+            
             FrameworkTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
                 .fontDesign(.monospaced)
                 .padding()
-
+            
             Spacer()
-
+            
             Button(action: { isShowingSafariView = true
-                   },
+            },
                    label: {
-                       AFButton(title: "Learn More")
-                   })
-
-                   .sheet(isPresented: $isShowingSafariView, content: {
-                       SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
-                   })
+                AFButton(title: "Learn More")
+            })
+            
+            .sheet(isPresented: $isShowingSafariView, content: {
+                SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
+            })
         }
     }
 }
