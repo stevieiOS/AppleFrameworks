@@ -29,12 +29,12 @@ struct FrameworkGridView: View {
             }
             .navigationTitle("Apple Frameworks")
             .sheet(isPresented: $viewModel.isShowingDetailView) {
-                FrameworkDetailView(isShowingDetailView: $viewModel.isShowingDetailView, framework: viewModel.selectedFramework ?? Framework.MockData.sampleFramework)
-            }
-                }
+                FrameworkDetailView(framework: viewModel.selectedFramework ?? Framework.MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
             }
         }
-    
+    }
+}
+
 
 
 

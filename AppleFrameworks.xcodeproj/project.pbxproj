@@ -18,6 +18,7 @@
 		567BB5062B3FA3BB0092809C /* AppleFrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BB5052B3FA3BB0092809C /* AppleFrameworksUITestsLaunchTests.swift */; };
 		567BB5132B3FA4EC0092809C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BB5122B3FA4EC0092809C /* FrameworkGridView.swift */; };
 		567BB5182B3FB3460092809C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BB5172B3FB3460092809C /* Framework.swift */; };
+		5690C83C2B46332300A890FB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5690C83B2B46332300A890FB /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		567BB5052B3FA3BB0092809C /* AppleFrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		567BB5122B3FA4EC0092809C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		567BB5172B3FB3460092809C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		5690C83B2B46332300A890FB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				567BB5122B3FA4EC0092809C /* FrameworkGridView.swift */,
 				565BA22A2B41E900008222FA /* FrameworkGridViewModel.swift */,
 				567B2C862B411A850046E42E /* FrameworkDetailView.swift */,
+				5690C83B2B46332300A890FB /* SafariView.swift */,
 				567B2C882B411D710046E42E /* AFButton.swift */,
 				567BB5162B3FA64E0092809C /* Models */,
 				567BB4EC2B3FA3BB0092809C /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 				567B2C892B411D710046E42E /* AFButton.swift in Sources */,
 				567BB5132B3FA4EC0092809C /* FrameworkGridView.swift in Sources */,
 				565BA22B2B41E900008222FA /* FrameworkGridViewModel.swift in Sources */,
+				5690C83C2B46332300A890FB /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
