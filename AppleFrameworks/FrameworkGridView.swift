@@ -37,8 +37,6 @@ struct FrameworkGridView: View {
 
 
 
-
-
 #Preview {
     FrameworkGridView()
 }

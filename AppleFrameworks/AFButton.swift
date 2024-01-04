@@ -12,17 +12,15 @@ struct AFButton: View {
     var title: String
     
     var body: some View {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-            Text(title)
-                .font(.title3)
-                .fontWeight(.bold)
-                .fontDesign(.monospaced)
-                .frame(width: 280, height: 50)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.button, Color.buttonTwo]), startPoint: .bottomLeading, endPoint: .topTrailing))
-                .foregroundColor(.white)
-                .cornerRadius(18)
-                .shadow(color: .gray, radius: 4)
-        })
+        Text(title)
+            .font(.title3)
+            .fontWeight(.bold)
+            .fontDesign(.monospaced)
+            .frame(width: 280, height: 50)
+            .background(LinearGradient(gradient: Gradient(colors: [Color.button, Color.buttonTwo]), startPoint: .bottomLeading, endPoint: .topTrailing))
+            .foregroundColor(.white)
+            .cornerRadius(18)
+            .shadow(color: .gray, radius: 4)
     }
 }
 

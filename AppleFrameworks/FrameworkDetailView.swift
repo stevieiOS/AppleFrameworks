@@ -9,18 +9,16 @@ import SwiftUI
 import UIKit
 
 struct FrameworkDetailView: View {
-    
     var framework: Framework
-    
+
     @Binding var isShowingDetailView: Bool
     @State private var isShowingSafariView = false
 
-    
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                Button{isShowingDetailView = false } label: {
+                Button { isShowingDetailView = false } label: {
                     Image(systemName: "xmark")
                         .foregroundColor(Color(.label))
                         .imageScale(.large)
@@ -33,10 +31,10 @@ struct FrameworkDetailView: View {
                 .font(.body)
                 .fontDesign(.monospaced)
                 .padding()
-            
+
             Spacer()
-            
-            Button(action: {isShowingSafariView = true}, label: {
+
+            Button(action: { isShowingSafariView = true }, label: {
                 AFButton(title: "Learn More")
             })
             .sheet(isPresented: $isShowingSafariView, content: {
@@ -45,7 +43,6 @@ struct FrameworkDetailView: View {
         }
     }
 }
-
 
 #Preview {
     FrameworkDetailView(framework: Framework.MockData.sampleFramework, isShowingDetailView: .constant(true))
