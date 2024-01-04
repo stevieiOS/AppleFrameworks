@@ -12,6 +12,7 @@ struct AFButton: View {
     var title: String
     
     var body: some View {
+    
         Text(title)
             .font(.title3)
             .fontWeight(.bold)
