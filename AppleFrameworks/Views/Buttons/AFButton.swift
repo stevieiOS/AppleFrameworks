@@ -21,7 +21,7 @@ struct AFButton: View {
             .background(LinearGradient(gradient: Gradient(colors: [Color.button, Color.buttonTwo]), startPoint: .bottomLeading, endPoint: .topTrailing))
             .foregroundColor(.white)
             .cornerRadius(18)
-            .shadow(color: .gray, radius: 4)
+            .shadow(color: .red, radius: 4)
     }
 }
 

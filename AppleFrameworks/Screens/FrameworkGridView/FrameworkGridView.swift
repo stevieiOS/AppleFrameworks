@@ -25,7 +25,7 @@ struct FrameworkGridView: View {
             }
             .navigationTitle("Apple Frameworks")
         }
-        .accentColor(.red)
+        .accentColor(.button)
     }
 }
 

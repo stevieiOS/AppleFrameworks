@@ -17,10 +17,14 @@ struct FrameworkDetailView: View {
     var body: some View {
         VStack {
             Spacer()
+
+                FrameworkTitleView(framework: framework)
+                .scenePadding()
             
-            FrameworkTitleView(framework: framework)
             Text(framework.description)
-                .font(.body)
+                .padding()
+                .kerning(1.0)
+                .font(.footnote)
                 .fontDesign(.monospaced)
                 .padding()
             
