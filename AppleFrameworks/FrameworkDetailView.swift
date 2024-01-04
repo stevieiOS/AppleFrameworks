@@ -9,11 +9,12 @@ import SwiftUI
 import UIKit
 
 struct FrameworkDetailView: View {
+    
     var framework: Framework
-
+    
     @Binding var isShowingDetailView: Bool
     @State private var isShowingSafariView = false
-
+    
     var body: some View {
         VStack {
             HStack {
@@ -31,9 +32,9 @@ struct FrameworkDetailView: View {
                 .font(.body)
                 .fontDesign(.monospaced)
                 .padding()
-
+            
             Spacer()
-
+            
             Button(action: { isShowingSafariView = true }, label: {
                 AFButton(title: "Learn More")
             })
